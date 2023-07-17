@@ -2,6 +2,22 @@
 ### Introduction ### 
  * __CI/CD pipelines__ are tools used to automate the process of building, testing, and deploying software applications.
  * Goal of CI/CD pipelines is to ensure faster and more reliable software delivery by automating various stages of the development lifecycle.
+ * __CI (Continuous Integration)__
+     * A process where team member integrate their work continuously shared repository
+     * With CI, each code change triggers an automated build process that compiles the 
+       code, runs tests, and checks for any integration issues.
+     * primary goal of CI is to detect and resolve issues early in the development cycle, 
+       ensuring that the codebase remains stable and functional.
+     * Best achieved using GIT.
+ * __CD (Continuous Deployment)__
+     * After CI process,deploying applications on production like environment and running 
+      automation test to ensure the build is ready for release
+     * It ensure build is always in deployment state
+ * The CI/CD pipeline is a series of steps that code changes go through, starting from 
+    source code management (e.g., Git repository) to the final deployment.
+ * The pipeline typically involves steps such as building the code, running unit tests, 
+   integration tests, packaging the application, deploying it to different environments 
+   (development, staging, production), and running additional tests in each stage.
 ###  key components and technologies typically involved in a CI/CD pipeline ###
 1)__Version Control System (VCS):__ A VCS such as Git is used to track changes to the source code, enabling collaboration and maintaining a history of code modifications.
 
